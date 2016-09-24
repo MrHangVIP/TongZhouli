@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+
+
+    <include   layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_scenic_introduction"/>
+
+
+        <com.yipai.tongzhouli.ui.widget.MyFontTextView
+            android:id="@+id/tv_slect_date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_h"
+            android:text="@string/tv_select_date"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_login_white"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"/>
+
+
+        <com.yipai.tongzhouli.ui.widget.MyFontButton
+            android:id="@+id/bt_order"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_h"
+            android:background="@drawable/button_back"
+            android:layout_marginTop="15dp"
+            android:text="@string/tv_order"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

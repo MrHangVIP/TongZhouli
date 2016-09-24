@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              >
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/img_register_page_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_h"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/img_close"
+            android:hint="@string/et_phone_number"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_check_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+
+            <EditText
+                android:id="@+id/et_check_code"
+                android:layout_weight="2.0"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_h"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/img_close"
+                android:hint="@string/et_check_code"/>
+
+            <com.yipai.tongzhouli.ui.widget.MyFontButton
+                android:id="@+id/bt_send"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_h"
+                android:layout_weight="1.0"
+                android:text="@string/bt_get"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_back"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_h"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/img_close"
+                android:hint="@string/et_set_pass"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.yipai.tongzhouli.ui.widget.MyFontButton
+        android:id="@+id/bt_regist"
+        android:layout_below="@id/ll_tab"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/height_h"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bt_regist"
+        android:layout_marginTop="-55dp"
+        android:background="@drawable/button_back"/>
+
+
+
+
+
+</RelativeLayout>

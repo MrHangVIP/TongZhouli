@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">同州里</string>
+
+
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+    <!--textView 内容开始 -->
+    <string name="tv_login"> 登陆</string>
+    <string name="tv_regist"> 注册</string>
+    <string name="tv_forget">忘记密码</string>
+
+    <!--设置 页面 开始 -->
+    <string name="tv_set">设置</string>
+    <string name="tv_login_and_regist">登陆/注册</string>
+    <string name="tv_sjts">商家推送</string>
+    <string name="tv_jqfwt">景区服务台</string>
+    <string name="tv_bbsj">版本升级</string>
+    <string name="tv_version">V 1.0 Beta</string>
+    <!-- 设置页面结束 -->
+
+    <!-- 在线预订页面开始 -->
+    <string name="tv_zxyy">在线预订</string>
+    <string name="tv_select_date">选择日期</string>
+    <string name="tv_order">预定</string>
+
+    <!-- 在线预订页面结束 -->
+
+    <string name="tv_jqjs">景区介绍</string>
+
+    <string name="tv_sprx">商铺热销</string>
+    <string name="tv_xnjq">虚拟景区</string>
+    <!--textview 内容结束 -->
+
+
+    <!--button 内容开始 -->
+    <string name="bt_get"> 获取</string>
+    <string name="bt_login"> 登陆</string>
+    <string name="bt_regist"> 注册</string>
+    <string name="bt_next"> 下一步</string>
+    <string name="bt_save"> 保存</string>
+    <!--button 内容结束 -->
+
+    <!--edittext 内容开始 -->
+    <string name="et_phone_number">请输入手机号</string>
+    <string name="et_write_pass">请输入密码</string>
+    <string name="et_write_pass_new">请输入新密码</string>
+    <string name="et_write_pass_again">请再次输入新密码</string>
+    <string name="et_set_pass">请设置密码</string>
+    <string name="et_check_code">请输入验证码</string>
+    <!--edittext 内容结束 -->
+
+
+
+
+
+
+</resources>

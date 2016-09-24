@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.yipai.tongzhouli">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- activity 注册开始-->
+        <activity
+            android:name=".ui.activity.WelcomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.MainActivity"/>
+
+        <activity android:name=".ui.activity.LoginActivity"/>
+
+        <activity android:name=".ui.activity.ForgetPassActivity"/>
+
+        <activity android:name=".ui.activity.UpdatePassActivity"/>
+
+        <activity android:name=".ui.activity.SettingActivity"/>
+
+        <activity android:name=".ui.activity.ScenicAreaActivity"/>
+
+        <activity android:name=".ui.activity.ScenicIntroductionActivity"/>
+
+        <activity android:name=".ui.activity.ReservationActivity"/>
+        <!-- activity 注册结束-->
+    </application>
+
+</manifest>

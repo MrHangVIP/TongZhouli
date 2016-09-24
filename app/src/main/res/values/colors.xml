@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_normal">#77000000</color>
+    <color name="button_pressed">#AA000000</color>
+    <color name="bg_loading">#88000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_l">#ededed</color>
+    <color name="textToolbar">#4d4d4d</color>
+    <color name="text_red">#860c11</color>
+    <color name="text_content">#343434</color>
+    <color name="text_detail">#808080</color>
+    <color name="text_content_tab">#888888</color>
+    <color name="background">#ededed</color>
+    <color name="underline_content">#bfbfbf</color>
+    <color name="activity_trans">#33000000</color>
+    <color name="black_m">#444444</color>
+    <color name="bg_red">#d1725c</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#3a8bf8</color>
+
+    <color name="buttonBlue">#33c5ff</color>
+</resources>

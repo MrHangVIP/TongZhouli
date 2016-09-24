@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="banner_heigth">174.5dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="middle_large">150dp</dimen>
+    <dimen name="heith_community">130dp</dimen>
+    <dimen name="title_height">45dp</dimen>
+    <dimen name="width_s">50dp</dimen>
+    <dimen name="width_m">90dp</dimen>
+    <dimen name="width_h">120dp</dimen>
+    <dimen name="width_xh">150dp</dimen>
+    <dimen name="width_xxh">180dp</dimen>
+    <dimen name="width_xxxh">220dp</dimen>
+    <dimen name="height_s">20dp</dimen>
+    <dimen name="height_m">30dp</dimen>
+    <dimen name="height_h">45dp</dimen>
+    <dimen name="height_xh">60dp</dimen>
+    <dimen name="height_xxh">70dp</dimen>
+    <dimen name="img_width_s">10dp</dimen>
+    <dimen name="img_width_m">15dp</dimen>
+    <dimen name="img_width_l">25dp</dimen>
+    <dimen name="img_width_xl">30dp</dimen>
+    <dimen name="img_width_xxl">40dp</dimen>
+    <dimen name="interval_s">5dp</dimen>
+    <dimen name="interval_m">20dp</dimen>
+    <dimen name="interval_l">15dp</dimen>
+    <dimen name="interval_xl">20dp</dimen>
+    <dimen name="interval_xxl">25dp</dimen>
+    <dimen name="interval_xxxl">30dp</dimen>
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="text_m">14sp</dimen>
+    <dimen name="text_l">16sp</dimen>
+    <dimen name="text_xl">18sp</dimen>
+    <dimen name="text_xxl">20sp</dimen>
+    <dimen name="text_xxxl">22sp</dimen>
+    <dimen name="none">0dp</dimen>
+    <dimen name="line_s">0.5dp</dimen>
+    <dimen name="line_m">1dp</dimen>
+    <dimen name="line_h">2dp</dimen>
+    <dimen name="line_xh">3dp</dimen>
+    <dimen name="line_xxh">4dp</dimen>
+    <dimen name="line_xxxh">5dp</dimen>
+</resources>
