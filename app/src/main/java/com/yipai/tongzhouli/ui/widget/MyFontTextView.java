@@ -32,7 +32,7 @@ public class MyFontTextView extends TextView{
     }
 
     private void setFont(){
-        typeFace = Typeface.createFromAsset(mContext.getAssets(), "font/new_Song.ttf");
-        this.setTypeface(typeFace);
+//        typeFace = Typeface.createFromAsset(mContext.getAssets(), "font/new_Song.ttf");
+//        this.setTypeface(typeFace);
     }
 }
